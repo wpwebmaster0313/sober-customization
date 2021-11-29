@@ -1,0 +1,19 @@
+.woocommerce nav.woocommerce-pagination ul.page-numbers {
+    border: none;
+    margin-bottom: 0;
+}
+.woocommerce nav.woocommerce-pagination ul.page-numbers li {
+    padding: 5px;
+}
+.woocommerce nav.woocommerce-pagination ul.page-numbers a {
+    text-decoration: underline;
+}
+a.next img {
+    transform: rotate(180deg);
+}
+.woocommerce nav.woocommerce-pagination ul.page-numbers li span.current:after {
+    display: none;
+}
+.woocommerce nav.woocommerce-pagination .pagination-text {
+    margin-bottom: 55px;
+}
